@@ -28,4 +28,6 @@ public class StefansContentClient {
         StefansContent.LOGGER.info("HELLO FROM CLIENT SETUP");
         StefansContent.LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
     }
+
+
 }
