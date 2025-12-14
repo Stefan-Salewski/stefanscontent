@@ -1,13 +1,7 @@
 {
-  "itemGroup.stefanscontent": "Example Mod Tab",
-  "block.stefanscontent.example_block": "Example Block",
-  "item.stefanscontent.example_item": "Example Item",
+  "item.stefanscontent.sparringgloves": "Sparring Gloves",
+  "item.stefanscontent.cloakofagility": "Cloak of Agility",
 
-  "stefanscontent.configuration.title": "StefansContent Configs",
-  "stefanscontent.configuration.section.stefanscontent.common.toml": "StefansContent Configs",
-  "stefanscontent.configuration.section.stefanscontent.common.toml.title": "StefansContent Configs",
-  "stefanscontent.configuration.items": "Item List",
-  "stefanscontent.configuration.logDirtBlock": "Log Dirt Block",
-  "stefanscontent.configuration.magicNumberIntroduction": "Magic Number Text",
-  "stefanscontent.configuration.magicNumber": "Magic Number"
+  "creativetab.stefanscontent.stefans_content": "Stefans Content"
+
 }

@@ -14,11 +14,23 @@ group = mod_group_id
 
 repositories {
     mavenCentral()
+
     maven {
         name = "IllusiveSoulworks"
         url = "https://maven.theillusivec4.top/"
     }
+
+    maven {
+        name = "ShadowsofFire"
+        url = "https://maven.shadowsoffire.dev/releases"
+    }
+
+    maven {
+        name = "CurseMaven"
+        url = "https://cursemaven.com"
+    }
 }
+
 
 base {
     archivesName = mod_id
@@ -82,11 +94,11 @@ dependencies {
     compileOnly "top.theillusivec4.curios:curios-neoforge:${curios_version}:api"
     runtimeOnly "top.theillusivec4.curios:curios-neoforge:${curios_version}"
 
-    // Example optional JEI dependency
-    // compileOnly "mezz.jei:jei-${mc_version}-common-api:${jei_version}"
-    // compileOnly "mezz.jei:jei-${mc_version}-neoforge-api:${jei_version}"
-    // localRuntime "mezz.jei:jei-${mc_version}-neoforge:${jei_version}"
+    // Placebo + ApothicAttributes
+    runtimeOnly "dev.shadowsoffire:Placebo:${placeboVersion}"
+    runtimeOnly "dev.shadowsoffire:ApothicAttributes:${attributesLibVersion}"
 }
+
 
 var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {
     var replaceProperties = [
