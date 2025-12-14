@@ -1,5 +1,6 @@
 package com.stefansstuff.stefanscontent;
 
+import com.stefansstuff.stefanscontent.enchantment.ModEnchantmentEffects;
 import com.stefansstuff.stefanscontent.item.ModCreativeModeTabs;
 import com.stefansstuff.stefanscontent.item.ModItems;
 import net.minecraft.world.item.*;
@@ -30,9 +31,7 @@ import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
-import top.theillusivec4.curios.api.CuriosCapability;
-import top.theillusivec4.curios.api.SlotContext;
-import top.theillusivec4.curios.api.type.capability.ICurio;
+
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(StefansContent.MODID)
@@ -53,7 +52,7 @@ public class StefansContent {
 
         NeoForge.EVENT_BUS.register(this);
         ModCreativeModeTabs.register(modEventBus);
-
+        ModEnchantmentEffects.register(modEventBus);
         ModItems.register(modEventBus);
         modEventBus.addListener(this::addCreative);
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);

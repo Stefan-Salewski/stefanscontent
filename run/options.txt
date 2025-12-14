@@ -48,7 +48,7 @@ mouseSensitivity:0.20422535211267606
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:[]
+resourcePacks:["vanilla","mod_resources"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -122,6 +122,8 @@ key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 key_key.curios.open.desc:key.keyboard.g
+key_placebo.toggleTrails:key.keyboard.keypad.9
+key_placebo.toggleWings:key.keyboard.keypad.8
 soundCategory_master:1.0
 soundCategory_music:1.0
 soundCategory_record:1.0

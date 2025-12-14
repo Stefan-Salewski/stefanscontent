@@ -1,15 +1,12 @@
 package com.stefansstuff.stefanscontent.item;
 
 import com.google.common.collect.ImmutableMultimap;
-import com.google.common.collect.LinkedHashMultimap;
 import com.google.common.collect.Multimap;
-import dev.shadowsoffire.apothic_attributes.ApothicAttributes;
 import dev.shadowsoffire.apothic_attributes.api.ALObjects;
 import net.minecraft.core.Holder;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
-import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import top.theillusivec4.curios.api.SlotContext;
@@ -18,9 +15,9 @@ import top.theillusivec4.curios.api.type.capability.ICurioItem;
 // If you're using Curios/Accessories, import their API interfaces
 
 
-public class SparringGloves extends Item implements ICurioItem {
+public class CloakOfAgility extends Item implements ICurioItem {
 
-    public SparringGloves() {
+    public CloakOfAgility() {
         super(new Properties().stacksTo(1));
     }
 

@@ -2,6 +2,7 @@
   "item.stefanscontent.sparringgloves": "Sparring Gloves",
   "item.stefanscontent.cloakofagility": "Cloak of Agility",
 
-  "creativetab.stefanscontent.stefans_content": "Stefans Content"
-
+  "creativetab.stefanscontent.stefans_content": "Stefans Content",
+  "enchantment.stefanscontent.keen_eye": "Keen Eye",
+  "enchantment.stefanscontent.keen_eye.desc": "Increases critical strike chance by 5% per level for melee and ranged."
 }

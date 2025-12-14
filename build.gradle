@@ -14,11 +14,11 @@ group = mod_group_id
 
 repositories {
     mavenCentral()
-
     maven {
         name = "IllusiveSoulworks"
         url = "https://maven.theillusivec4.top/"
     }
+
 
     maven {
         name = "ShadowsofFire"
@@ -93,10 +93,11 @@ dependencies {
     // Curios API and runtime
     compileOnly "top.theillusivec4.curios:curios-neoforge:${curios_version}:api"
     runtimeOnly "top.theillusivec4.curios:curios-neoforge:${curios_version}"
-
     // Placebo + ApothicAttributes
     runtimeOnly "dev.shadowsoffire:Placebo:${placeboVersion}"
     runtimeOnly "dev.shadowsoffire:ApothicAttributes:${attributesLibVersion}"
+    compileOnly "dev.shadowsoffire:Placebo:${placeboVersion}"
+    compileOnly "dev.shadowsoffire:ApothicAttributes:${attributesLibVersion}"
 }
 
 
