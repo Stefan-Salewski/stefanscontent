@@ -26,16 +26,11 @@
     "base": 5,
     "per_level_above_first": 7
   },
-  "supported_items": [
-    "c:tools"
-  ],
-  "primary_items": [
-    "c:tools/melee_weapon",
-    "c:swords"
-  ],
 
   "slots": [
     "mainhand"
   ],
+  "primary_item": ["#c:tools/melee_weapon","#minecraft:swords", "#c:tools/bow"],
+  "supported_items": "#c:tools",
   "weight": 10
 }

@@ -1,6 +1,5 @@
 package com.stefansstuff.stefanscontent;
 
-import com.stefansstuff.stefanscontent.enchantment.ModEnchantmentEffects;
 import com.stefansstuff.stefanscontent.item.ModCreativeModeTabs;
 import com.stefansstuff.stefanscontent.item.ModItems;
 import net.minecraft.world.item.*;
@@ -52,7 +51,6 @@ public class StefansContent {
 
         NeoForge.EVENT_BUS.register(this);
         ModCreativeModeTabs.register(modEventBus);
-        ModEnchantmentEffects.register(modEventBus);
         ModItems.register(modEventBus);
         modEventBus.addListener(this::addCreative);
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
