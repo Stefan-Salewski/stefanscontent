@@ -1,21 +1,22 @@
 package com.stefansstuff.stefanscontent.enchantment;
 
-import com.mojang.serialization.MapCodec;
-import com.stefansstuff.stefanscontent.StefansContent;
-import com.stefansstuff.stefanscontent.enchantment.KeenEyeHandler;
-import net.minecraft.core.registries.Registries;
-import net.minecraft.world.item.enchantment.effects.EnchantmentEntityEffect;
+import com.stefansstuff.stefanscontent.enchantment.custom.KeenEyeHandler_UNUSED;
+import net.minecraft.core.component.DataComponentType;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.neoforged.bus.api.IEventBus;
+import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
-import java.util.function.Supplier;
-
 public class ModEnchantmentEffects {
-    public static final DeferredRegister<MapCodec<? extends EnchantmentEntityEffect>> ENCHANTMENTS = DeferredRegister.create(Registries.ENCHANTMENT_ENTITY_EFFECT_TYPE, StefansContent.MODID);
+    public static final DeferredRegister<DataComponentType<?>> ENCHANTMENT_COMPONENT_TYPES = DeferredRegister.create(BuiltInRegistries.ENCHANTMENT_EFFECT_COMPONENT_TYPE, "stefanscontent");
 
-    public static final Supplier<MapCodec<? extends EnchantmentEntityEffect>> KEEN_EYE = ENCHANTMENTS.register("keen_eye", () -> KeenEyeHandler.CODEC);
+    public static final DeferredHolder<DataComponentType<?>, DataComponentType<KeenEyeHandler_UNUSED>> KEEN_EYE =
+            ENCHANTMENT_COMPONENT_TYPES.register("keen_eye",
+                    () -> DataComponentType.<KeenEyeHandler_UNUSED>builder()
+                            .persistent(KeenEyeHandler_UNUSED.CODEC.codec())
+                            .build());
 
     public static void register(IEventBus bus) {
-        ENCHANTMENTS.register(bus);
+        ENCHANTMENT_COMPONENT_TYPES.register(bus);
     }
 }

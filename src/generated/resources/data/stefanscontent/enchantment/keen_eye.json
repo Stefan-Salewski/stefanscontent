@@ -1,0 +1,35 @@
+{
+  "anvil_cost": 2,
+  "description": {
+    "translate": "enchantment.stefanscontent.keen_eye"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.05,
+          "per_level_above_first": 0.05
+        },
+        "attribute": "apothic_attributes:crit_chance",
+        "id": "stefanscontent:keen_eye_bonus",
+        "operation": "add_value"
+      }
+    ]
+  },
+  "exclusive_set": "#stefanscontent:keen_eye_exclusive",
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 7
+  },
+  "max_level": 5,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 7
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#minecraft:weapon_enchantable",
+  "weight": 6
+}
