@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:brown_wool"
+    },
+    "I": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "pattern": [
+    "   ",
+    "B B",
+    "I I"
+  ],
+  "result": {
+    "id": "stefanscontent:sparringgloves",
+    "count": 1
+  }
+}

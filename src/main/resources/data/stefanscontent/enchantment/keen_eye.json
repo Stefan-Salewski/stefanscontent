@@ -17,7 +17,6 @@
       }
     ]
   },
-  "exclusive_set": "#stefanscontent:keen_eye_exclusive",
   "max_cost": {
     "base": 50,
     "per_level_above_first": 7
@@ -27,9 +26,16 @@
     "base": 5,
     "per_level_above_first": 7
   },
+  "supported_items": [
+    "c:tools"
+  ],
+  "primary_items": [
+    "c:tools/melee_weapon",
+    "c:swords"
+  ],
+
   "slots": [
     "mainhand"
   ],
-  "supported_items": "#minecraft:weapon_enchantable",
-  "weight": 6
+  "weight": 10
 }
