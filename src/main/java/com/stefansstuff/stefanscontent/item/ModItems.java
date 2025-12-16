@@ -17,12 +17,9 @@ public class ModItems {
     public static final DeferredItem<Item> FIRECAPE = ITEMS.register("firecape", () -> new FireCape());
     public static final DeferredItem<Item> FROSTCAPE = ITEMS.register("frostcape", () -> new FrostCape());
     public static final DeferredItem<Item> HEALINGCAPE = ITEMS.register("healingcape", () -> new HealingCape());
-    public static final DeferredItem<Item> LIGHTNINGCAPE = ITEMS.register("lightningcape", () -> new LightningCape());
-    public static final DeferredItem<Item> SOULCAPE = ITEMS.register("soulcape", () -> new SoulCape());
-
-
-
-
+    //public static final DeferredItem<Item> LIGHTNINGCAPE = ITEMS.register("lightningcape", () -> new LightningCape());
+    //public static final DeferredItem<Item> SOULCAPE = ITEMS.register("soulcape", () -> new SoulCape());
+    //we dont need these 2 they arent in the skill tree no one will go them
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

@@ -25,9 +25,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.SHARKTOOTHNECKLACE);
                         output.accept(ModItems.MAGECAPE);
                         output.accept(ModItems.FIRECAPE);
-                        output.accept(ModItems.LIGHTNINGCAPE);
+                        //output.accept(ModItems.LIGHTNINGCAPE);
                         output.accept(ModItems.FROSTCAPE);
-                        output.accept(ModItems.SOULCAPE);
+                        //output.accept(ModItems.SOULCAPE);
                         output.accept(ModItems.ARCANECAPE);
                         output.accept(ModItems.HEALINGCAPE);
                     }))
