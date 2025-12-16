@@ -1,0 +1,14 @@
+{
+  "type": "stefanscontent:add_item",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "minecraft:chests/shipwreck_treasure"
+    },
+    {
+      "chance": 0.85,
+      "condition": "minecraft:random_chance"
+    }
+  ],
+  "item": "stefanscontent:sharktoothnecklace"
+}

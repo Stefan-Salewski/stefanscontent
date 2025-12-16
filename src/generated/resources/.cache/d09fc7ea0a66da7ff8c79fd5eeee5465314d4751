@@ -1,0 +1,5 @@
+// 1.21.1	2025-12-15T21:31:49.8279539	Global Loot Modifiers : stefanscontent
+67d70965f0d94a6b6b8347df62627e45e5ca8a9d data/neoforge/loot_modifiers/global_loot_modifiers.json
+5265102d2bd87fe3105a2602d835307c92691435 data/stefanscontent/loot_modifiers/sharktoothnecklace_from_shipwreck_map.json
+86d999e65e1179452ae5b6de86ca2648fa3981cc data/stefanscontent/loot_modifiers/sharktoothnecklace_from_shipwreck_supply.json
+af89a21c187c16a359fa592c94a1d5a1b7236d82 data/stefanscontent/loot_modifiers/sharktoothnecklace_from_shipwreck_treasure.json
