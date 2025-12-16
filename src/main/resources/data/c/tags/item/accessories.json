@@ -1,4 +1,14 @@
 {
   "replace": false,
-  "values": ["stefanscontent:sparringgloves", "stefanscontent:cloakofagility", "stefanscontent:sharktoothnecklace"]
+  "values": [
+    "stefanscontent:sparringgloves",
+    "stefanscontent:cloakofagility",
+    "stefanscontent:sharktoothnecklace",
+    "stefanscontent:magecape",
+    "stefanscontent:firecape",
+    "stefanscontent:frostcape",
+    "stefanscontent:healingcape",
+    "stefanscontent:arcanecape",
+    "stefanscontent:jeweledgauntlet"
+  ]
 }

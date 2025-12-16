@@ -17,11 +17,16 @@ import net.spell_power.api.SpellSchools;
 import java.util.UUID;
 
 public class FireCape extends AccessoryItem {
-
+    protected ResourceLocation CAPE_LOCATION = ResourceLocation.fromNamespaceAndPath("stefanscontent", "textures/models/accessory/capes/mage_cape_player_model.png");
     public FireCape() {
         super(new Properties().stacksTo(1));
+        //this.setRenderTexture(CAPE_LOCATION.getNamespace(),CAPE_LOCATION.getPath());
     }
-
+/*
+    public void setRenderTexture(String modId, String registryName) {
+        this.CAPE_LOCATION = ResourceLocation.fromNamespaceAndPath(modId, "textures/models/accessory/capes/" + registryName + "_accessory.png");
+    }
+*/
     @Override
     public void getDynamicModifiers(ItemStack stack, SlotReference reference, AccessoryAttributeBuilder builder) {
         builder.addStackable(SpellSchools.FIRE.getAttributeEntry(), new AttributeModifier(ResourceLocation.fromNamespaceAndPath("stefanscontent", "cape_bonus"), 2, AttributeModifier.Operation.ADD_VALUE));
