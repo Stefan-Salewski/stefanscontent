@@ -1,6 +1,13 @@
 {
   "replace": false,
   "values": [
-    "stefanscontent:cloakofagility"
+    "stefanscontent:cloakofagility",
+    "stefanscontent:magecape",
+    "stefanscontent:firecape",
+    "stefanscontent:frostcape",
+    "stefanscontent:lightningcape",
+    "stefanscontent:arcanecape",
+    "stefanscontent:soulcape",
+    "stefanscontent:healingcape"
   ]
 }

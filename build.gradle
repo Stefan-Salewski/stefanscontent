@@ -29,6 +29,18 @@ repositories {
         name = "CurseMaven"
         url = "https://cursemaven.com"
     }
+
+    maven {
+        name = 'Modrinth'
+        url = 'https://api.modrinth.com/maven'
+        content {
+            includeGroup 'maven.modrinth'
+        }
+    }
+
+    maven {
+        url "https://maven.su5ed.dev/releases"
+    }
 }
 
 
@@ -96,8 +108,14 @@ dependencies {
     // Placebo + ApothicAttributes
     runtimeOnly "dev.shadowsoffire:Placebo:${placeboVersion}"
     runtimeOnly "dev.shadowsoffire:ApothicAttributes:${attributesLibVersion}"
+
     compileOnly "dev.shadowsoffire:Placebo:${placeboVersion}"
     compileOnly "dev.shadowsoffire:ApothicAttributes:${attributesLibVersion}"
+
+    compileOnly"maven.modrinth:spell-power:${spell_power_version}-neoforge"
+    runtimeOnly"maven.modrinth:spell-power:${spell_power_version}-neoforge"
+
+    implementation "org.sinytra.forgified-fabric-api:forgified-fabric-api:${fabric_api_version}"
 }
 
 
