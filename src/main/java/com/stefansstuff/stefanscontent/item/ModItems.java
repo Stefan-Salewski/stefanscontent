@@ -11,6 +11,8 @@ public class ModItems {
 
     public static final DeferredItem<Item> SPARRINGGLOVES = ITEMS.register("sparringgloves", () -> new SparringGloves());
     public static final DeferredItem<Item> CLOAKOFAGILITY = ITEMS.register("cloakofagility", () -> new CloakOfAgility());
+    public static final DeferredItem<Item> SHARKTOOTHNECKLACE = ITEMS.register("sharktoothnecklace", () -> new SharkToothNecklace());
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

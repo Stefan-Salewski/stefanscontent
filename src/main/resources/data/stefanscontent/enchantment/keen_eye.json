@@ -8,8 +8,8 @@
       {
         "amount": {
           "type": "minecraft:linear",
-          "base": 0.05,
-          "per_level_above_first": 0.05
+          "base": 0.065,
+          "per_level_above_first": 0.065
         },
         "attribute": "apothic_attributes:crit_chance",
         "id": "stefanscontent:keen_eye_bonus",
@@ -30,7 +30,7 @@
   "slots": [
     "mainhand"
   ],
-  "primary_item": ["#c:tools/melee_weapon","#minecraft:swords", "#c:tools/bow"],
+  "primary_item": ["#c:tools/melee_weapon","#minecraft:swords", "#c:tools/bow", "#c:swords", "#minecraft:enchantable/sharp_weapon"],
   "supported_items": "#c:tools",
   "weight": 10
 }

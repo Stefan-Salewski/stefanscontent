@@ -22,6 +22,7 @@ public class ModCreativeModeTabs {
                     .displayItems(((itemDisplayParameters, output) -> {
                         output.accept(ModItems.SPARRINGGLOVES);
                         output.accept(ModItems.CLOAKOFAGILITY);
+                        output.accept(ModItems.SHARKTOOTHNECKLACE);
                     }))
                     .build());
 

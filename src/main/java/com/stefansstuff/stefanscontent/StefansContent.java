@@ -2,6 +2,7 @@ package com.stefansstuff.stefanscontent;
 
 import com.stefansstuff.stefanscontent.item.ModCreativeModeTabs;
 import com.stefansstuff.stefanscontent.item.ModItems;
+import com.stefansstuff.stefanscontent.loot.ModLootModifiers;
 import net.minecraft.world.item.*;
 import net.neoforged.neoforge.capabilities.RegisterCapabilitiesEvent;
 import org.slf4j.Logger;
@@ -48,11 +49,10 @@ public class StefansContent {
         modEventBus.addListener(this::commonSetup);
 
         //ModCreativeModeTabs.register(modEventBus);
-
         NeoForge.EVENT_BUS.register(this);
+        ModLootModifiers.register(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
-        modEventBus.addListener(this::addCreative);
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 
@@ -62,13 +62,6 @@ public class StefansContent {
 
     }
 
-    // Add the example block item to the building blocks tab
-    private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if(event.getTabKey() == CreativeModeTabs.COMBAT) {
-            //event.accept(ModItems.SPARRINGGLOVES);
-            //.accept(ModItems.CLOAKOFAGILITY);
-        }
-    }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
