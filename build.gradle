@@ -38,6 +38,11 @@ repositories {
         }
     }
 
+    maven { url 'https://maven.wispforest.io/releases' }
+    maven { url 'https://maven.su5ed.dev/releases' }
+    maven { url 'https://maven.fabricmc.net' }
+    maven { url 'https://maven.shedaniel.me/' }
+
     maven {
         url "https://maven.su5ed.dev/releases"
     }
@@ -103,8 +108,8 @@ configurations {
 
 dependencies {
     // Curios API and runtime
-    compileOnly "top.theillusivec4.curios:curios-neoforge:${curios_version}:api"
-    runtimeOnly "top.theillusivec4.curios:curios-neoforge:${curios_version}"
+    implementation("io.wispforest:accessories-neoforge:${accessories_version}")
+
     // Placebo + ApothicAttributes
     runtimeOnly "dev.shadowsoffire:Placebo:${placeboVersion}"
     runtimeOnly "dev.shadowsoffire:ApothicAttributes:${attributesLibVersion}"

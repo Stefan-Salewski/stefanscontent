@@ -1,14 +1,12 @@
 package com.stefansstuff.stefanscontent;
-
 import com.stefansstuff.stefanscontent.item.ModCreativeModeTabs;
 import com.stefansstuff.stefanscontent.item.ModItems;
 import com.stefansstuff.stefanscontent.loot.ModLootModifiers;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.*;
 import net.neoforged.neoforge.capabilities.RegisterCapabilitiesEvent;
 import org.slf4j.Logger;
-
 import com.mojang.logging.LogUtils;
-
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -32,7 +30,6 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
-
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(StefansContent.MODID)
 public class StefansContent {
@@ -54,14 +51,14 @@ public class StefansContent {
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+
+
+
     }
-
-
 
     private void commonSetup(FMLCommonSetupEvent event) {
 
     }
-
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
     @SubscribeEvent
