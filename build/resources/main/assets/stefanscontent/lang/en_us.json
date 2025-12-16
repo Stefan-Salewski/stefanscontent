@@ -9,8 +9,11 @@
   "item.stefanscontent.soulcape": "Soul Cape",
   "item.stefanscontent.lightningcape": "Lightning Cape",
   "item.stefanscontent.healingcape": "Healing Cape",
+  "item.stefanscontent.jeweledgauntlet": "Jeweled Gauntlet",
 
   "creativetab.stefanscontent.stefans_content": "Stefans Content",
   "enchantment.stefanscontent.keen_eye": "Keen Eye",
-  "enchantment.stefanscontent.keen_eye.desc": "Increases critical strike chance by 5% per level for melee and ranged."
+  "enchantment.stefanscontent.keen_eye.desc": "Increases critical strike chance by 5% per level for melee and ranged.",
+
+  "tooltip.stefanscontent.jeweled_gauntlet.crit": "Spell Crit Chance + %s%%"
 }

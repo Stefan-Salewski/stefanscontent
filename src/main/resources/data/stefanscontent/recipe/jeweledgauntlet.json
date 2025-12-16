@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "S": {
+      "item": "stefanscontent:sparringgloves"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "GSG",
+    "GGG"
+  ],
+  "result": {
+    "id": "stefanscontent:jeweledgauntlet",
+    "count": 1
+  }
+}

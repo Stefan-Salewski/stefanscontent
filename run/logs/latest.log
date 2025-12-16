@@ -1,56 +1,56 @@
-[16Dec2025 01:02:31.399] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientdev, --version, 21.1.215, --assetIndex, 17, --assetsDir, C:\\Users\\nikys\\.gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.215, --fml.neoFormVersion, 20240808.144430]
-[16Dec2025 01:02:31.402] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 21.0.7+8-LTS-245
-[16Dec2025 01:02:31.404] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.7 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
-[16Dec2025 01:02:31.520] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[16Dec2025 01:02:31.643] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[16Dec2025 01:02:31.825] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[16Dec2025 01:02:31.936] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/nikys/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23138!/ Service=ModLauncher Env=CLIENT
-[16Dec2025 01:02:32.168] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 3060/PCIe/SSE2 GL version 4.6.0 NVIDIA 581.80, NVIDIA Corporation
-[16Dec2025 01:02:33.001] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_transfer_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-transfer-api-v1\5.4.2+a25cb45619\6162e402d162f495f681f73476b5ced8330bfd0b\fabric-transfer-api-v1-5.4.2+a25cb45619.jar
-[16Dec2025 01:02:33.001] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_game_rule_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-game-rule-api-v1\1.0.53+36d727be19\95d44c0cd842c6227c3c81debb30e5490357e9\fabric-game-rule-api-v1-1.0.53+36d727be19.jar
-[16Dec2025 01:02:33.001] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_api_base. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-api-base\0.4.42+d1308ded19\73cd9e29f38780ae03533f187e2a99032acd5523\fabric-api-base-0.4.42+d1308ded19.jar
-[16Dec2025 01:02:33.001] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_renderer_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-renderer-api-v1\3.4.0+9c40919e19\f1510e057a7671dab9ebd9722a34420ef5cb55c\fabric-renderer-api-v1-3.4.0+9c40919e19.jar
-[16Dec2025 01:02:33.001] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_api_lookup_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-api-lookup-api-v1\1.6.70+c290471319\ab1028183fb0e2d65e4b24d6f7bc1096c67fc12c\fabric-api-lookup-api-v1-1.6.70+c290471319.jar
-[16Dec2025 01:02:33.001] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_blockrenderlayer_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-blockrenderlayer-v1\1.1.52+c290471319\433ff6f1ba15673567261dfb9c820e8195804d80\fabric-blockrenderlayer-v1-1.1.52+c290471319.jar
-[16Dec2025 01:02:33.001] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_item_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-item-api-v1\11.1.1+57cdfa8219\865bfad64552aec89d6dea9a21919a3a1e4ae2ed\fabric-item-api-v1-11.1.1+57cdfa8219.jar
-[16Dec2025 01:02:33.001] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_model_loading_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-model-loading-api-v1\2.0.0+986ae77219\27f48cbaf4b516e8bc3828b0244f7df4413073cb\fabric-model-loading-api-v1-2.0.0+986ae77219.jar
-[16Dec2025 01:02:33.001] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_block_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-block-api-v1\1.0.22+a6e994cd19\7f8c6fd6a11c572d53688ebd936f9fd261a51d5d\fabric-block-api-v1-1.0.22+a6e994cd19.jar
-[16Dec2025 01:02:33.001] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_rendering_fluids_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-rendering-fluids-v1\3.1.6+857185bc19\1c1d8095b826d4e603b4ba6c07d34859d88cae0b\fabric-rendering-fluids-v1-3.1.6+857185bc19.jar
-[16Dec2025 01:02:33.001] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_resource_conditions_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-resource-conditions-api-v1\4.3.0+5bdd099819\635cc43a2c46638cbe58579a521eaeaa5fab2772\fabric-resource-conditions-api-v1-4.3.0+5bdd099819.jar
-[16Dec2025 01:02:33.001] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_screen_handler_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-screen-handler-api-v1\1.3.88+8dbc56dd19\dfc709787bb9dd216d020bf3a9bec9b931fb1a1a\fabric-screen-handler-api-v1-1.3.88+8dbc56dd19.jar
-[16Dec2025 01:02:33.001] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_resource_loader_v0. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-resource-loader-v0\1.3.1+4ea8954419\c01ca5647ed909516899cf324d886020f64d800c\fabric-resource-loader-v0-1.3.1+4ea8954419.jar
-[16Dec2025 01:02:33.001] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_rendering_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-rendering-v1\5.0.5+c290471319\9687c51388d928ae9c59207ea4d8001181b60778\fabric-rendering-v1-5.0.5+c290471319.jar
-[16Dec2025 01:02:33.002] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_renderer_indigo. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-renderer-indigo\1.7.0+4198af7119\c453aea151a7c227191cbd28ae41225cf62aeca\fabric-renderer-indigo-1.7.0+4198af7119.jar
-[16Dec2025 01:02:33.002] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_item_group_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-item-group-api-v1\4.1.7+e324903319\221ce18ab6bf1441ada374b6d02d6cdcdb3326a4\fabric-item-group-api-v1-4.1.7+e324903319.jar
-[16Dec2025 01:02:33.002] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_convention_tags_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-convention-tags-v1\2.1.4+7f945d5b19\4c9a8a64f4b24ad31d0044523ae171553dd16c84\fabric-convention-tags-v1-2.1.4+7f945d5b19.jar
-[16Dec2025 01:02:33.002] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_gametest_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-gametest-api-v1\2.0.5+29f188ce19\3e47008107c35ab1ebe259e83068fe417a0b876b\fabric-gametest-api-v1-2.0.5+29f188ce19.jar
-[16Dec2025 01:02:33.002] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_convention_tags_v2. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-convention-tags-v2\2.11.0+87e5848019\ff4c88cf6f01aeced9e26d7d865b3fa980543a21\fabric-convention-tags-v2-2.11.0+87e5848019.jar
-[16Dec2025 01:02:33.002] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_block_view_api_v2. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-block-view-api-v2\1.0.11+e9036fd419\6ed305c7baee0b4e36162f9aec1af7af7f17d82a\fabric-block-view-api-v2-1.0.11+e9036fd419.jar
-[16Dec2025 01:02:33.002] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_command_api_v2. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-command-api-v2\2.2.28+36d727be19\6115c6c09b7659826586a579598566946eba2cd8\fabric-command-api-v2-2.2.28+36d727be19.jar
-[16Dec2025 01:02:33.002] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_data_attachment_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-data-attachment-api-v1\1.4.3+c290471319\310d305bd9ebf4dceca2591d09f5e6f494ae2cff\fabric-data-attachment-api-v1-1.4.3+c290471319.jar
-[16Dec2025 01:02:33.002] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_biome_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-biome-api-v1\13.0.31+1e62d33c19\c75ec99143c14b3fda76a85fc499f4da06b634ab\fabric-biome-api-v1-13.0.31+1e62d33c19.jar
-[16Dec2025 01:02:33.002] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_entity_events_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-entity-events-v1\1.7.0+1af6e62419\a5c195e161e282afa65cd44dc88155903c907ba9\fabric-entity-events-v1-1.7.0+1af6e62419.jar
-[16Dec2025 01:02:33.002] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_registry_sync_v0. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-registry-sync-v0\5.2.0+867470b919\357c0cc3657a58b94bd6aec04ebc022e736dcf62\fabric-registry-sync-v0-5.2.0+867470b919.jar
-[16Dec2025 01:02:33.002] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_recipe_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-recipe-api-v1\5.0.14+59440bcc19\e9be2176461f72f0ee943b9f4434a5932b00d050\fabric-recipe-api-v1-5.0.14+59440bcc19.jar
-[16Dec2025 01:02:33.002] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_loot_api_v2. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-loot-api-v2\3.0.15+a3ee712d19\966c09d16898271eedfab19f03466d0506214548\fabric-loot-api-v2-3.0.15+a3ee712d19.jar
-[16Dec2025 01:02:33.002] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_object_builder_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-object-builder-api-v1\15.2.1+cc242efd19\87bf7dec728d6d88fa5fc26ce1f593193ab72382\fabric-object-builder-api-v1-15.2.1+cc242efd19.jar
-[16Dec2025 01:02:33.002] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_loot_api_v3. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-loot-api-v3\1.0.3+333dfad919\f7af49fcf22d818b8f6b678b12c616e419ff3fd\fabric-loot-api-v3-1.0.3+333dfad919.jar
-[16Dec2025 01:02:33.002] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_screen_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-screen-api-v1\2.0.25+4228281319\1a650ae3a6adf64ad88a6c2f3e48ed2474953417\fabric-screen-api-v1-2.0.25+4228281319.jar
-[16Dec2025 01:02:33.002] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_rendering_data_attachment_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-rendering-data-attachment-v1\0.3.49+73761d2e19\d512ba622e138437bc9547021c62d73c16603156\fabric-rendering-data-attachment-v1-0.3.49+73761d2e19.jar
-[16Dec2025 01:02:33.002] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_networking_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-networking-api-v1\4.3.0+30a980d919\38d120e5a2280119e940934a8fdfe080b59cdd78\fabric-networking-api-v1-4.3.0+30a980d919.jar
-[16Dec2025 01:02:33.002] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_sound_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-sound-api-v1\1.0.23+10b84f8419\d6fabd312ee207bb3eb12d83ec6efa88222aab9a\fabric-sound-api-v1-1.0.23+10b84f8419.jar
-[16Dec2025 01:02:33.002] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_particles_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-particles-v1\4.0.2+824f924c19\6c35c5cbcb8d67ec241e387cbd33a23722a8a10\fabric-particles-v1-4.0.2+824f924c19.jar
-[16Dec2025 01:02:33.002] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: library:net.fabricmc.loader. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra\forgified-fabric-loader\2.5.29+0.16.0+1.21\88802d6e2fb10afb60ee981f345470db8cf2a89c\forgified-fabric-loader-2.5.29+0.16.0+1.21-full.jar
-[16Dec2025 01:02:33.002] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_message_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-message-api-v1\6.0.13+e053909619\b173e3b12281b8dd1d2776a2a5fa431f57144af2\fabric-message-api-v1-6.0.13+e053909619.jar
-[16Dec2025 01:02:33.002] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_content_registries_v0. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-content-registries-v0\8.0.18+c290471319\6d16dc60dd90a24668fca6e7efd4e01fefe22d79\fabric-content-registries-v0-8.0.18+c290471319.jar
-[16Dec2025 01:02:33.002] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_lifecycle_events_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-lifecycle-events-v1\2.5.0+a2ee258a19\c4ea9b7643654291869299338bc78994323c6149\fabric-lifecycle-events-v1-2.5.0+a2ee258a19.jar
-[16Dec2025 01:02:33.002] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_transitive_access_wideners_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-transitive-access-wideners-v1\6.2.0+6c854b6f19\59ca7c85a57bfa2dd726509dfd336d9fd68c42d7\fabric-transitive-access-wideners-v1-6.2.0+6c854b6f19.jar
-[16Dec2025 01:02:33.002] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_data_generation_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-data-generation-api-v1\20.2.28+2d91a6db19\57bc2efa994f39ead9e48574e0bb7ec14cc828ac\fabric-data-generation-api-v1-20.2.28+2d91a6db19.jar
-[16Dec2025 01:02:33.002] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_events_interaction_v0. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-events-interaction-v0\0.7.13+7b71cc1619\92b634b1db6c02d909bc3da056a074aff31e9c5b\fabric-events-interaction-v0-0.7.13+7b71cc1619.jar
-[16Dec2025 01:02:33.002] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_key_binding_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-key-binding-api-v1\1.0.47+62cc7ce119\91c00a1dab131ca0d40bd6404817c1a4e4ff18f9\fabric-key-binding-api-v1-1.0.47+62cc7ce119.jar
-[16Dec2025 01:02:33.002] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_client_tags_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-client-tags-api-v1\1.1.15+e053909619\52396d19e2ff049613b5a4a337d44e6ca7b79581\fabric-client-tags-api-v1-1.1.15+e053909619.jar
-[16Dec2025 01:02:33.003] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
-[16Dec2025 01:02:33.004] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+[16Dec2025 04:25:19.807] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientdev, --version, 21.1.215, --assetIndex, 17, --assetsDir, C:\\Users\\nikys\\.gradle\\caches\\neoformruntime\\assets, --gameDir, ., --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.215, --fml.neoFormVersion, 20240808.144430]
+[16Dec2025 04:25:19.810] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 21.0.7+8-LTS-245
+[16Dec2025 04:25:19.811] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.7 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[16Dec2025 04:25:19.914] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[16Dec2025 04:25:20.016] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[16Dec2025 04:25:20.161] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[16Dec2025 04:25:20.249] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/nikys/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23138!/ Service=ModLauncher Env=CLIENT
+[16Dec2025 04:25:20.478] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 3060/PCIe/SSE2 GL version 4.6.0 NVIDIA 581.80, NVIDIA Corporation
+[16Dec2025 04:25:21.435] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_transfer_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-transfer-api-v1\5.4.2+a25cb45619\6162e402d162f495f681f73476b5ced8330bfd0b\fabric-transfer-api-v1-5.4.2+a25cb45619.jar
+[16Dec2025 04:25:21.435] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_game_rule_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-game-rule-api-v1\1.0.53+36d727be19\95d44c0cd842c6227c3c81debb30e5490357e9\fabric-game-rule-api-v1-1.0.53+36d727be19.jar
+[16Dec2025 04:25:21.435] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_api_base. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-api-base\0.4.42+d1308ded19\73cd9e29f38780ae03533f187e2a99032acd5523\fabric-api-base-0.4.42+d1308ded19.jar
+[16Dec2025 04:25:21.435] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_renderer_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-renderer-api-v1\3.4.0+9c40919e19\f1510e057a7671dab9ebd9722a34420ef5cb55c\fabric-renderer-api-v1-3.4.0+9c40919e19.jar
+[16Dec2025 04:25:21.435] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_api_lookup_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-api-lookup-api-v1\1.6.70+c290471319\ab1028183fb0e2d65e4b24d6f7bc1096c67fc12c\fabric-api-lookup-api-v1-1.6.70+c290471319.jar
+[16Dec2025 04:25:21.435] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_blockrenderlayer_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-blockrenderlayer-v1\1.1.52+c290471319\433ff6f1ba15673567261dfb9c820e8195804d80\fabric-blockrenderlayer-v1-1.1.52+c290471319.jar
+[16Dec2025 04:25:21.436] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_item_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-item-api-v1\11.1.1+57cdfa8219\865bfad64552aec89d6dea9a21919a3a1e4ae2ed\fabric-item-api-v1-11.1.1+57cdfa8219.jar
+[16Dec2025 04:25:21.436] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_model_loading_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-model-loading-api-v1\2.0.0+986ae77219\27f48cbaf4b516e8bc3828b0244f7df4413073cb\fabric-model-loading-api-v1-2.0.0+986ae77219.jar
+[16Dec2025 04:25:21.436] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_block_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-block-api-v1\1.0.22+a6e994cd19\7f8c6fd6a11c572d53688ebd936f9fd261a51d5d\fabric-block-api-v1-1.0.22+a6e994cd19.jar
+[16Dec2025 04:25:21.436] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_rendering_fluids_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-rendering-fluids-v1\3.1.6+857185bc19\1c1d8095b826d4e603b4ba6c07d34859d88cae0b\fabric-rendering-fluids-v1-3.1.6+857185bc19.jar
+[16Dec2025 04:25:21.436] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_resource_conditions_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-resource-conditions-api-v1\4.3.0+5bdd099819\635cc43a2c46638cbe58579a521eaeaa5fab2772\fabric-resource-conditions-api-v1-4.3.0+5bdd099819.jar
+[16Dec2025 04:25:21.436] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_screen_handler_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-screen-handler-api-v1\1.3.88+8dbc56dd19\dfc709787bb9dd216d020bf3a9bec9b931fb1a1a\fabric-screen-handler-api-v1-1.3.88+8dbc56dd19.jar
+[16Dec2025 04:25:21.436] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_resource_loader_v0. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-resource-loader-v0\1.3.1+4ea8954419\c01ca5647ed909516899cf324d886020f64d800c\fabric-resource-loader-v0-1.3.1+4ea8954419.jar
+[16Dec2025 04:25:21.436] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_rendering_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-rendering-v1\5.0.5+c290471319\9687c51388d928ae9c59207ea4d8001181b60778\fabric-rendering-v1-5.0.5+c290471319.jar
+[16Dec2025 04:25:21.436] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_renderer_indigo. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-renderer-indigo\1.7.0+4198af7119\c453aea151a7c227191cbd28ae41225cf62aeca\fabric-renderer-indigo-1.7.0+4198af7119.jar
+[16Dec2025 04:25:21.437] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_item_group_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-item-group-api-v1\4.1.7+e324903319\221ce18ab6bf1441ada374b6d02d6cdcdb3326a4\fabric-item-group-api-v1-4.1.7+e324903319.jar
+[16Dec2025 04:25:21.437] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_convention_tags_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-convention-tags-v1\2.1.4+7f945d5b19\4c9a8a64f4b24ad31d0044523ae171553dd16c84\fabric-convention-tags-v1-2.1.4+7f945d5b19.jar
+[16Dec2025 04:25:21.437] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_gametest_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-gametest-api-v1\2.0.5+29f188ce19\3e47008107c35ab1ebe259e83068fe417a0b876b\fabric-gametest-api-v1-2.0.5+29f188ce19.jar
+[16Dec2025 04:25:21.437] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_convention_tags_v2. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-convention-tags-v2\2.11.0+87e5848019\ff4c88cf6f01aeced9e26d7d865b3fa980543a21\fabric-convention-tags-v2-2.11.0+87e5848019.jar
+[16Dec2025 04:25:21.437] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_block_view_api_v2. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-block-view-api-v2\1.0.11+e9036fd419\6ed305c7baee0b4e36162f9aec1af7af7f17d82a\fabric-block-view-api-v2-1.0.11+e9036fd419.jar
+[16Dec2025 04:25:21.437] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_command_api_v2. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-command-api-v2\2.2.28+36d727be19\6115c6c09b7659826586a579598566946eba2cd8\fabric-command-api-v2-2.2.28+36d727be19.jar
+[16Dec2025 04:25:21.437] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_data_attachment_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-data-attachment-api-v1\1.4.3+c290471319\310d305bd9ebf4dceca2591d09f5e6f494ae2cff\fabric-data-attachment-api-v1-1.4.3+c290471319.jar
+[16Dec2025 04:25:21.437] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_biome_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-biome-api-v1\13.0.31+1e62d33c19\c75ec99143c14b3fda76a85fc499f4da06b634ab\fabric-biome-api-v1-13.0.31+1e62d33c19.jar
+[16Dec2025 04:25:21.437] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_entity_events_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-entity-events-v1\1.7.0+1af6e62419\a5c195e161e282afa65cd44dc88155903c907ba9\fabric-entity-events-v1-1.7.0+1af6e62419.jar
+[16Dec2025 04:25:21.437] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_registry_sync_v0. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-registry-sync-v0\5.2.0+867470b919\357c0cc3657a58b94bd6aec04ebc022e736dcf62\fabric-registry-sync-v0-5.2.0+867470b919.jar
+[16Dec2025 04:25:21.438] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_recipe_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-recipe-api-v1\5.0.14+59440bcc19\e9be2176461f72f0ee943b9f4434a5932b00d050\fabric-recipe-api-v1-5.0.14+59440bcc19.jar
+[16Dec2025 04:25:21.438] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_loot_api_v2. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-loot-api-v2\3.0.15+a3ee712d19\966c09d16898271eedfab19f03466d0506214548\fabric-loot-api-v2-3.0.15+a3ee712d19.jar
+[16Dec2025 04:25:21.438] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_object_builder_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-object-builder-api-v1\15.2.1+cc242efd19\87bf7dec728d6d88fa5fc26ce1f593193ab72382\fabric-object-builder-api-v1-15.2.1+cc242efd19.jar
+[16Dec2025 04:25:21.438] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_loot_api_v3. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-loot-api-v3\1.0.3+333dfad919\f7af49fcf22d818b8f6b678b12c616e419ff3fd\fabric-loot-api-v3-1.0.3+333dfad919.jar
+[16Dec2025 04:25:21.438] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_screen_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-screen-api-v1\2.0.25+4228281319\1a650ae3a6adf64ad88a6c2f3e48ed2474953417\fabric-screen-api-v1-2.0.25+4228281319.jar
+[16Dec2025 04:25:21.438] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_rendering_data_attachment_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-rendering-data-attachment-v1\0.3.49+73761d2e19\d512ba622e138437bc9547021c62d73c16603156\fabric-rendering-data-attachment-v1-0.3.49+73761d2e19.jar
+[16Dec2025 04:25:21.438] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_networking_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-networking-api-v1\4.3.0+30a980d919\38d120e5a2280119e940934a8fdfe080b59cdd78\fabric-networking-api-v1-4.3.0+30a980d919.jar
+[16Dec2025 04:25:21.438] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_sound_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-sound-api-v1\1.0.23+10b84f8419\d6fabd312ee207bb3eb12d83ec6efa88222aab9a\fabric-sound-api-v1-1.0.23+10b84f8419.jar
+[16Dec2025 04:25:21.438] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_particles_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-particles-v1\4.0.2+824f924c19\6c35c5cbcb8d67ec241e387cbd33a23722a8a10\fabric-particles-v1-4.0.2+824f924c19.jar
+[16Dec2025 04:25:21.438] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: library:net.fabricmc.loader. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra\forgified-fabric-loader\2.5.29+0.16.0+1.21\88802d6e2fb10afb60ee981f345470db8cf2a89c\forgified-fabric-loader-2.5.29+0.16.0+1.21-full.jar
+[16Dec2025 04:25:21.438] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_message_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-message-api-v1\6.0.13+e053909619\b173e3b12281b8dd1d2776a2a5fa431f57144af2\fabric-message-api-v1-6.0.13+e053909619.jar
+[16Dec2025 04:25:21.438] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_content_registries_v0. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-content-registries-v0\8.0.18+c290471319\6d16dc60dd90a24668fca6e7efd4e01fefe22d79\fabric-content-registries-v0-8.0.18+c290471319.jar
+[16Dec2025 04:25:21.438] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_lifecycle_events_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-lifecycle-events-v1\2.5.0+a2ee258a19\c4ea9b7643654291869299338bc78994323c6149\fabric-lifecycle-events-v1-2.5.0+a2ee258a19.jar
+[16Dec2025 04:25:21.439] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_transitive_access_wideners_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-transitive-access-wideners-v1\6.2.0+6c854b6f19\59ca7c85a57bfa2dd726509dfd336d9fd68c42d7\fabric-transitive-access-wideners-v1-6.2.0+6c854b6f19.jar
+[16Dec2025 04:25:21.439] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_data_generation_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-data-generation-api-v1\20.2.28+2d91a6db19\57bc2efa994f39ead9e48574e0bb7ec14cc828ac\fabric-data-generation-api-v1-20.2.28+2d91a6db19.jar
+[16Dec2025 04:25:21.439] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_events_interaction_v0. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-events-interaction-v0\0.7.13+7b71cc1619\92b634b1db6c02d909bc3da056a074aff31e9c5b\fabric-events-interaction-v0-0.7.13+7b71cc1619.jar
+[16Dec2025 04:25:21.439] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_key_binding_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-key-binding-api-v1\1.0.47+62cc7ce119\91c00a1dab131ca0d40bd6404817c1a4e4ff18f9\fabric-key-binding-api-v1-1.0.47+62cc7ce119.jar
+[16Dec2025 04:25:21.439] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_client_tags_api_v1. Using Mod File: C:\Users\nikys\.gradle\caches\modules-2\files-2.1\org.sinytra.forgified-fabric-api\fabric-client-tags-api-v1\1.1.15+e053909619\52396d19e2ff049613b5a4a337d44e6ca7b79581\fabric-client-tags-api-v1-1.1.15+e053909619.jar
+[16Dec2025 04:25:21.439] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
+[16Dec2025 04:25:21.442] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
@@ -103,166 +103,359 @@
 		NeoForge 21.1.215 (neoforge)
 		Placebo 9.9.1 (placebo)
 		Spell Power Attribute 1.4.6+1.21.1 (spell_power)
-		Stefans Content 0.0.3 (stefanscontent)
+		Stefans Content 0.0.5 (stefanscontent)
 		Tiny Config 3.1.0 (tiny_config)
-[16Dec2025 01:02:33.869] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[16Dec2025 01:02:33.871] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
-[16Dec2025 01:02:33.953] [main/INFO] [net.fabricmc.loader.impl.bootstrap.FabricLoaderBootstrap/]: Propagating FML mod list to Fabric Loader
-[16Dec2025 01:02:33.965] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientdev' with arguments [--version, 21.1.215, --gameDir, ., --assetsDir, C:\Users\nikys\.gradle\caches\neoformruntime\assets, --assetIndex, 17]
-[16Dec2025 01:02:34.049] [main/WARN] [mixin/]: Reference map 'placebo.refmap.json' for placebo.mixins.json could not be read. If this is a development environment you can ignore this message
-[16Dec2025 01:02:34.054] [main/WARN] [mixin/]: Reference map 'apothic_attributes.refmap.json' for apothic_attributes.mixins.json could not be read. If this is a development environment you can ignore this message
-[16Dec2025 01:02:34.055] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
-[16Dec2025 01:02:34.055] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.mixins.json could not be read. If this is a development environment you can ignore this message
-[16Dec2025 01:02:34.899] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[16Dec2025 01:02:36.539] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 319 milliseconds
-[16Dec2025 01:02:40.533] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: attribute.name.spell_power.arcane
-[16Dec2025 01:02:40.533] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: attribute.name.spell_power.critical_chance
-[16Dec2025 01:02:40.533] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: attribute.name.spell_power.critical_damage
-[16Dec2025 01:02:40.533] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: attribute.name.spell_power.fire
-[16Dec2025 01:02:40.533] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: attribute.name.spell_power.frost
-[16Dec2025 01:02:40.533] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: attribute.name.spell_power.generic
-[16Dec2025 01:02:40.533] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: attribute.name.spell_power.haste
-[16Dec2025 01:02:40.533] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: attribute.name.spell_power.healing
-[16Dec2025 01:02:40.533] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: attribute.name.spell_power.lightning
-[16Dec2025 01:02:40.533] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: attribute.name.spell_power.resistance.generic
-[16Dec2025 01:02:40.533] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: attribute.name.spell_power.soul
-[16Dec2025 01:02:40.533] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: effect.spell_power.arcane
-[16Dec2025 01:02:40.533] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: effect.spell_power.critical_chance
-[16Dec2025 01:02:40.533] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: effect.spell_power.critical_damage
-[16Dec2025 01:02:40.533] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: effect.spell_power.fire
-[16Dec2025 01:02:40.533] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: effect.spell_power.frost
-[16Dec2025 01:02:40.533] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: effect.spell_power.generic
-[16Dec2025 01:02:40.533] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: effect.spell_power.haste
-[16Dec2025 01:02:40.533] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: effect.spell_power.healing
-[16Dec2025 01:02:40.533] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: effect.spell_power.lightning
-[16Dec2025 01:02:40.533] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: effect.spell_power.soul
-[16Dec2025 01:02:40.984] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16Dec2025 01:02:40.984] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16Dec2025 01:02:40.986] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[16Dec2025 01:02:40.986] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[16Dec2025 01:02:40.988] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[16Dec2025 01:02:41.088] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/nikys/IdeaProjects/stefanscontent/build/moddev/artifacts/neoforge-21.1.215.jar%23189!/assets/.mcassetsroot' uses unexpected schema
-[16Dec2025 01:02:41.088] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/nikys/IdeaProjects/stefanscontent/build/moddev/artifacts/neoforge-21.1.215.jar%23189!/data/.mcassetsroot' uses unexpected schema
-[16Dec2025 01:02:41.117] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[16Dec2025 01:02:41.125] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[16Dec2025 01:02:41.177] [Render thread/INFO] [mixin/]: BeforeConstant is searching for constants in method with descriptor (Lnet/minecraft/client/GuiMessage;)V
-[16Dec2025 01:02:41.177] [Render thread/INFO] [mixin/]:   BeforeConstant found STRING constant: value = , stringValue = null
-[16Dec2025 01:02:41.177] [Render thread/INFO] [mixin/]:     BeforeConstant found a matching constant TYPE at ordinal 0
-[16Dec2025 01:02:41.177] [Render thread/INFO] [mixin/]:       BeforeConstant found LdcInsn 
-[16Dec2025 01:02:41.177] [Render thread/INFO] [mixin/]:   BeforeConstant found STRING constant: value = \\r, stringValue = null
-[16Dec2025 01:02:41.177] [Render thread/INFO] [mixin/]:     BeforeConstant found a matching constant TYPE at ordinal 1
-[16Dec2025 01:02:41.177] [Render thread/INFO] [mixin/]:       BeforeConstant found LdcInsn \\r
-[16Dec2025 01:02:41.177] [Render thread/INFO] [mixin/]:   BeforeConstant found STRING constant: value = 
+[16Dec2025 04:25:22.544] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[16Dec2025 04:25:22.547] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[16Dec2025 04:25:22.629] [main/INFO] [net.fabricmc.loader.impl.bootstrap.FabricLoaderBootstrap/]: Propagating FML mod list to Fabric Loader
+[16Dec2025 04:25:22.641] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientdev' with arguments [--version, 21.1.215, --gameDir, ., --assetsDir, C:\Users\nikys\.gradle\caches\neoformruntime\assets, --assetIndex, 17]
+[16Dec2025 04:25:22.731] [main/WARN] [mixin/]: Reference map 'placebo.refmap.json' for placebo.mixins.json could not be read. If this is a development environment you can ignore this message
+[16Dec2025 04:25:22.738] [main/WARN] [mixin/]: Reference map 'apothic_attributes.refmap.json' for apothic_attributes.mixins.json could not be read. If this is a development environment you can ignore this message
+[16Dec2025 04:25:22.739] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[16Dec2025 04:25:22.740] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.mixins.json could not be read. If this is a development environment you can ignore this message
+[16Dec2025 04:25:23.510] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[16Dec2025 04:25:24.911] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 336 milliseconds
+[16Dec2025 04:25:28.578] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: attribute.name.spell_power.arcane
+[16Dec2025 04:25:28.578] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: attribute.name.spell_power.critical_chance
+[16Dec2025 04:25:28.578] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: attribute.name.spell_power.critical_damage
+[16Dec2025 04:25:28.578] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: attribute.name.spell_power.fire
+[16Dec2025 04:25:28.578] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: attribute.name.spell_power.frost
+[16Dec2025 04:25:28.578] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: attribute.name.spell_power.generic
+[16Dec2025 04:25:28.578] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: attribute.name.spell_power.haste
+[16Dec2025 04:25:28.578] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: attribute.name.spell_power.healing
+[16Dec2025 04:25:28.579] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: attribute.name.spell_power.lightning
+[16Dec2025 04:25:28.579] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: attribute.name.spell_power.resistance.generic
+[16Dec2025 04:25:28.579] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: attribute.name.spell_power.soul
+[16Dec2025 04:25:28.579] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: effect.spell_power.arcane
+[16Dec2025 04:25:28.579] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: effect.spell_power.critical_chance
+[16Dec2025 04:25:28.579] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: effect.spell_power.critical_damage
+[16Dec2025 04:25:28.579] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: effect.spell_power.fire
+[16Dec2025 04:25:28.579] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: effect.spell_power.frost
+[16Dec2025 04:25:28.579] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: effect.spell_power.generic
+[16Dec2025 04:25:28.579] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: effect.spell_power.haste
+[16Dec2025 04:25:28.579] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: effect.spell_power.healing
+[16Dec2025 04:25:28.579] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: effect.spell_power.lightning
+[16Dec2025 04:25:28.579] [main/ERROR] [net.minecraft.server.Bootstrap/]: Missing translations: effect.spell_power.soul
+[16Dec2025 04:25:29.029] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16Dec2025 04:25:29.029] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16Dec2025 04:25:29.033] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16Dec2025 04:25:29.034] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[16Dec2025 04:25:29.034] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[16Dec2025 04:25:29.157] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/nikys/IdeaProjects/stefanscontent/build/moddev/artifacts/neoforge-21.1.215.jar%23189!/assets/.mcassetsroot' uses unexpected schema
+[16Dec2025 04:25:29.157] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/nikys/IdeaProjects/stefanscontent/build/moddev/artifacts/neoforge-21.1.215.jar%23189!/data/.mcassetsroot' uses unexpected schema
+[16Dec2025 04:25:29.187] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16Dec2025 04:25:29.193] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[16Dec2025 04:25:29.235] [Render thread/INFO] [mixin/]: BeforeConstant is searching for constants in method with descriptor (Lnet/minecraft/client/GuiMessage;)V
+[16Dec2025 04:25:29.235] [Render thread/INFO] [mixin/]:   BeforeConstant found STRING constant: value = , stringValue = null
+[16Dec2025 04:25:29.235] [Render thread/INFO] [mixin/]:     BeforeConstant found a matching constant TYPE at ordinal 0
+[16Dec2025 04:25:29.235] [Render thread/INFO] [mixin/]:       BeforeConstant found LdcInsn 
+[16Dec2025 04:25:29.235] [Render thread/INFO] [mixin/]:   BeforeConstant found STRING constant: value = \\r, stringValue = null
+[16Dec2025 04:25:29.235] [Render thread/INFO] [mixin/]:     BeforeConstant found a matching constant TYPE at ordinal 1
+[16Dec2025 04:25:29.235] [Render thread/INFO] [mixin/]:       BeforeConstant found LdcInsn \\r
+[16Dec2025 04:25:29.235] [Render thread/INFO] [mixin/]:   BeforeConstant found STRING constant: value = 
 , stringValue = null
-[16Dec2025 01:02:41.177] [Render thread/INFO] [mixin/]:     BeforeConstant found a matching constant TYPE at ordinal 2
-[16Dec2025 01:02:41.177] [Render thread/INFO] [mixin/]:       BeforeConstant found LdcInsn 
+[16Dec2025 04:25:29.235] [Render thread/INFO] [mixin/]:     BeforeConstant found a matching constant TYPE at ordinal 2
+[16Dec2025 04:25:29.235] [Render thread/INFO] [mixin/]:       BeforeConstant found LdcInsn 
 
-[16Dec2025 01:02:41.177] [Render thread/INFO] [mixin/]:   BeforeConstant found STRING constant: value = \\n, stringValue = null
-[16Dec2025 01:02:41.177] [Render thread/INFO] [mixin/]:     BeforeConstant found a matching constant TYPE at ordinal 3
-[16Dec2025 01:02:41.177] [Render thread/INFO] [mixin/]:       BeforeConstant found LdcInsn \\n
-[16Dec2025 01:02:41.177] [Render thread/INFO] [mixin/]:   BeforeConstant found CLASS constant: value = Ljava/lang/String;, typeValue = null
-[16Dec2025 01:02:41.178] [Render thread/INFO] [mixin/]:   BeforeConstant found STRING constant: value = [{}] [CHAT] {}, stringValue = null
-[16Dec2025 01:02:41.178] [Render thread/INFO] [mixin/]:     BeforeConstant found a matching constant TYPE at ordinal 4
-[16Dec2025 01:02:41.178] [Render thread/INFO] [mixin/]:       BeforeConstant found LdcInsn [{}] [CHAT] {}
-[16Dec2025 01:02:41.178] [Render thread/INFO] [mixin/]:   BeforeConstant found STRING constant: value = [CHAT] {}, stringValue = null
-[16Dec2025 01:02:41.178] [Render thread/INFO] [mixin/]:     BeforeConstant found a matching constant TYPE at ordinal 5
-[16Dec2025 01:02:41.178] [Render thread/INFO] [mixin/]:       BeforeConstant found LdcInsn [CHAT] {}
-[16Dec2025 01:02:41.273] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
-[16Dec2025 01:02:41.510] [modloading-worker-0/INFO] [net.fabricmc.fabric.impl.client.indigo.Indigo/]: [Indigo] Registering Indigo renderer!
-[16Dec2025 01:02:41.542] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.215, for MC 1.21.1
-[16Dec2025 01:02:42.280] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: [stefanscontent]
-[16Dec2025 01:02:42.417] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/fabric_transfer_api_v1, mod/fabric_renderer_api_v1, mod/fabric_model_loading_api_v1, mod/fabric_item_api_v1, mod/fabric_rendering_fluids_v1, mod/fabric_screen_handler_api_v1, mod/fabric_resource_loader_v0, mod/fabric_rendering_v1, mod/fabric_renderer_indigo, mod/fabric_convention_tags_v1, mod/neoforge, mod/placebo, mod/fabric_convention_tags_v2, mod/fabric_command_api_v2, mod/fabric_block_view_api_v2, mod/fabric_data_attachment_api_v1, mod/tiny_config, mod/fabric_screen_api_v1, mod/fabric_particles_v1, mod/fabric_api,forgified_fabric_api, mod/fabric_content_registries_v0, mod/fabric_transitive_access_wideners_v1, mod/fabric_game_rule_api_v1, mod/fabric_api_base, mod/fabric_api_lookup_api_v1, mod/fabric_blockrenderlayer_v1, mod/fabric_block_api_v1, mod/fabric_resource_conditions_api_v1, mod/apothic_attributes, mod/spell_power, mod/curios, mod/stefanscontent, mod/fabric_item_group_api_v1, mod/fabric_gametest_api_v1, mod/fabric_biome_api_v1, mod/fabric_entity_events_v1, mod/fabric_registry_sync_v0, mod/fabric_recipe_api_v1, mod/fabric_loot_api_v2, mod/fabric_object_builder_api_v1, mod/fabric_loot_api_v3, mod/fabric_rendering_data_attachment_v1, mod/fabric_networking_api_v1, mod/fabric_sound_api_v1, mod/fabric_message_api_v1, mod/fabric_lifecycle_events_v1, mod/fabric_data_generation_api_v1, mod/fabric_events_interaction_v0, mod/fabric_key_binding_api_v1, mod/fabric_client_tags_api_v1, fabric
-[16Dec2025 01:02:42.558] [Worker-Main-11/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
-[16Dec2025 01:02:42.558] [Worker-Main-14/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
-[16Dec2025 01:02:42.640] [Placebo Patreon Trail Loader/INFO] [placebo/]: Loading patreon trails data...
-[16Dec2025 01:02:42.641] [Placebo Patreon Wing Loader/INFO] [placebo/]: Loading patreon wing data...
-[16Dec2025 01:02:42.662] [Worker-Main-9/INFO] [com.stefansstuff.stefanscontent.StefansContent/]: HELLO FROM CLIENT SETUP
-[16Dec2025 01:02:42.662] [Worker-Main-9/INFO] [com.stefansstuff.stefanscontent.StefansContent/]: MINECRAFT NAME >> Dev
-[16Dec2025 01:02:42.774] [Placebo Patreon Trail Loader/INFO] [placebo/]: Loaded 50 patreon trails.
-[16Dec2025 01:02:42.774] [Placebo Patreon Wing Loader/INFO] [placebo/]: Loaded 43 patreon wings.
-[16Dec2025 01:02:43.260] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'stefanscontent:item/frostcape' referenced from: stefanscontent:item/frostcape: java.io.FileNotFoundException: stefanscontent:models/item/frostcape.json
-[16Dec2025 01:02:43.260] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'stefanscontent:item/arcanecape' referenced from: stefanscontent:item/arcanecape: java.io.FileNotFoundException: stefanscontent:models/item/arcanecape.json
-[16Dec2025 01:02:43.262] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'stefanscontent:item/firecape' referenced from: stefanscontent:item/firecape: java.io.FileNotFoundException: stefanscontent:models/item/firecape.json
-[16Dec2025 01:02:43.262] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'stefanscontent:item/soulcape' referenced from: stefanscontent:item/soulcape: java.io.FileNotFoundException: stefanscontent:models/item/soulcape.json
-[16Dec2025 01:02:43.264] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'stefanscontent:item/lightningcape' referenced from: stefanscontent:item/lightningcape: java.io.FileNotFoundException: stefanscontent:models/item/lightningcape.json
-[16Dec2025 01:02:43.265] [Worker-Main-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'stefanscontent:item/healingcape' referenced from: stefanscontent:item/healingcape: java.io.FileNotFoundException: stefanscontent:models/item/healingcape.json
-[16Dec2025 01:02:43.900] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='apothic_attributes.subtitle.dodge', args=[]} for sound event: apothic_attributes:dodge
-[16Dec2025 01:02:43.901] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[16Dec2025 01:02:43.901] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[16Dec2025 01:02:43.963] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (HyperX DuoCast)
-[16Dec2025 01:02:43.965] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[16Dec2025 01:02:44.075] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[16Dec2025 01:02:44.084] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[16Dec2025 01:02:44.084] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[16Dec2025 01:02:44.084] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[16Dec2025 01:02:44.085] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[16Dec2025 01:02:44.089] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[16Dec2025 01:02:44.089] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[16Dec2025 01:02:44.089] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[16Dec2025 01:02:44.089] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[16Dec2025 01:02:44.301] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[16Dec2025 01:02:44.302] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
-[16Dec2025 01:02:44.302] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[16Dec2025 01:02:44.302] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
-[16Dec2025 01:02:44.302] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[16Dec2025 01:02:44.325] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[16Dec2025 01:02:44.390] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
-[16Dec2025 01:02:58.551] [Render thread/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack fabric, loading it automatically
-[16Dec2025 01:02:59.308] [Worker-Main-12/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag c:tools as it is missing following references: 
+[16Dec2025 04:25:29.235] [Render thread/INFO] [mixin/]:   BeforeConstant found STRING constant: value = \\n, stringValue = null
+[16Dec2025 04:25:29.235] [Render thread/INFO] [mixin/]:     BeforeConstant found a matching constant TYPE at ordinal 3
+[16Dec2025 04:25:29.235] [Render thread/INFO] [mixin/]:       BeforeConstant found LdcInsn \\n
+[16Dec2025 04:25:29.235] [Render thread/INFO] [mixin/]:   BeforeConstant found CLASS constant: value = Ljava/lang/String;, typeValue = null
+[16Dec2025 04:25:29.235] [Render thread/INFO] [mixin/]:   BeforeConstant found STRING constant: value = [{}] [CHAT] {}, stringValue = null
+[16Dec2025 04:25:29.235] [Render thread/INFO] [mixin/]:     BeforeConstant found a matching constant TYPE at ordinal 4
+[16Dec2025 04:25:29.235] [Render thread/INFO] [mixin/]:       BeforeConstant found LdcInsn [{}] [CHAT] {}
+[16Dec2025 04:25:29.235] [Render thread/INFO] [mixin/]:   BeforeConstant found STRING constant: value = [CHAT] {}, stringValue = null
+[16Dec2025 04:25:29.235] [Render thread/INFO] [mixin/]:     BeforeConstant found a matching constant TYPE at ordinal 5
+[16Dec2025 04:25:29.235] [Render thread/INFO] [mixin/]:       BeforeConstant found LdcInsn [CHAT] {}
+[16Dec2025 04:25:29.359] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[16Dec2025 04:25:29.597] [modloading-worker-0/INFO] [net.fabricmc.fabric.impl.client.indigo.Indigo/]: [Indigo] Registering Indigo renderer!
+[16Dec2025 04:25:29.629] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.215, for MC 1.21.1
+[16Dec2025 04:25:30.320] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: [stefanscontent]
+[16Dec2025 04:25:30.441] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/fabric_transfer_api_v1, mod/fabric_renderer_api_v1, mod/fabric_model_loading_api_v1, mod/fabric_item_api_v1, mod/fabric_rendering_fluids_v1, mod/fabric_screen_handler_api_v1, mod/fabric_resource_loader_v0, mod/fabric_rendering_v1, mod/fabric_renderer_indigo, mod/fabric_convention_tags_v1, mod/neoforge, mod/placebo, mod/fabric_convention_tags_v2, mod/fabric_command_api_v2, mod/fabric_block_view_api_v2, mod/fabric_data_attachment_api_v1, mod/tiny_config, mod/fabric_screen_api_v1, mod/fabric_particles_v1, mod/fabric_api,forgified_fabric_api, mod/fabric_content_registries_v0, mod/fabric_transitive_access_wideners_v1, mod/fabric_game_rule_api_v1, mod/fabric_api_base, mod/fabric_api_lookup_api_v1, mod/fabric_blockrenderlayer_v1, mod/fabric_block_api_v1, mod/fabric_resource_conditions_api_v1, mod/apothic_attributes, mod/spell_power, mod/curios, mod/stefanscontent, mod/fabric_item_group_api_v1, mod/fabric_gametest_api_v1, mod/fabric_biome_api_v1, mod/fabric_entity_events_v1, mod/fabric_registry_sync_v0, mod/fabric_recipe_api_v1, mod/fabric_loot_api_v2, mod/fabric_object_builder_api_v1, mod/fabric_loot_api_v3, mod/fabric_rendering_data_attachment_v1, mod/fabric_networking_api_v1, mod/fabric_sound_api_v1, mod/fabric_message_api_v1, mod/fabric_lifecycle_events_v1, mod/fabric_data_generation_api_v1, mod/fabric_events_interaction_v0, mod/fabric_key_binding_api_v1, mod/fabric_client_tags_api_v1, fabric
+[16Dec2025 04:25:30.559] [Worker-Main-15/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[16Dec2025 04:25:30.608] [Placebo Patreon Trail Loader/INFO] [placebo/]: Loading patreon trails data...
+[16Dec2025 04:25:30.609] [Placebo Patreon Wing Loader/INFO] [placebo/]: Loading patreon wing data...
+[16Dec2025 04:25:30.638] [Worker-Main-3/INFO] [com.stefansstuff.stefanscontent.StefansContent/]: HELLO FROM CLIENT SETUP
+[16Dec2025 04:25:30.638] [Worker-Main-3/INFO] [com.stefansstuff.stefanscontent.StefansContent/]: MINECRAFT NAME >> Dev
+[16Dec2025 04:25:30.709] [Placebo Patreon Trail Loader/INFO] [placebo/]: Loaded 50 patreon trails.
+[16Dec2025 04:25:30.711] [Placebo Patreon Wing Loader/INFO] [placebo/]: Loaded 43 patreon wings.
+[16Dec2025 04:25:30.726] [Worker-Main-5/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[16Dec2025 04:25:31.176] [Worker-Main-12/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'stefanscontent:item/jeweledgauntlet' referenced from: stefanscontent:item/jeweledgauntlet: java.io.FileNotFoundException: stefanscontent:models/item/jeweledgauntlet.json
+[16Dec2025 04:25:31.784] [Render thread/ERROR] [net.minecraft.client.sounds.SoundManager/]: Missing subtitle translation{key='apothic_attributes.subtitle.dodge', args=[]} for sound event: apothic_attributes:dodge
+[16Dec2025 04:25:31.786] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[16Dec2025 04:25:31.786] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[16Dec2025 04:25:31.838] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (HyperX DuoCast)
+[16Dec2025 04:25:31.838] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[16Dec2025 04:25:31.927] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[16Dec2025 04:25:31.934] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[16Dec2025 04:25:31.935] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[16Dec2025 04:25:31.935] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[16Dec2025 04:25:31.936] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[16Dec2025 04:25:31.937] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[16Dec2025 04:25:31.937] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[16Dec2025 04:25:31.938] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[16Dec2025 04:25:31.938] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[16Dec2025 04:25:32.092] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[16Dec2025 04:25:32.094] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[16Dec2025 04:25:32.095] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[16Dec2025 04:25:32.095] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[16Dec2025 04:25:32.095] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[16Dec2025 04:25:32.110] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[16Dec2025 04:25:32.148] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[16Dec2025 04:25:46.886] [Worker-Main-14/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag curios:cape as it is missing following references: 
+	stefanscontent:lightningcape (from mod/stefanscontent)
+	stefanscontent:soulcape (from mod/stefanscontent)
+[16Dec2025 04:25:46.887] [Worker-Main-14/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag c:tools as it is missing following references: 
 	#simplyswords:swords (from mod/stefanscontent)
-[16Dec2025 01:02:59.447] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1292 recipes
-[16Dec2025 01:02:59.599] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1399 advancements
-[16Dec2025 01:02:59.606] [Render thread/INFO] [Curios API/]: Loaded 10 curio slots
-[16Dec2025 01:02:59.608] [Render thread/INFO] [Curios API/]: Loaded 1 curio entities
-[16Dec2025 01:02:59.612] [Render thread/INFO] [placebo/]: Registered 0 gear_sets.
-[16Dec2025 01:02:59.614] [Render thread/INFO] [placebo/]: Registered 0 wanderer_trades.
-[16Dec2025 01:02:59.620] [Render thread/INFO] [placebo/]: Registered 37 brewing_mixes.
-[16Dec2025 01:02:59.628] [Render thread/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: c:tools
-[16Dec2025 01:03:00.018] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.1
-[16Dec2025 01:03:00.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[16Dec2025 01:03:00.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[16Dec2025 01:03:00.883] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[16Dec2025 01:03:00.984] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[16Dec2025 01:03:00.985] [Server thread/WARN] [net.neoforged.neoforge.common.TagConventionLogWarning/]: 
+[16Dec2025 04:25:46.953] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe stefanscontent:frostcape
+com.google.gson.JsonParseException: Map entry 'F' : Failed to parse either. First: Not a json array: {"item":"runes:frost_stone"}; Second: No key tag in MapLike[{"item":"runes:frost_stone"}]; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: runes:frost_stone
+	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23121!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:36) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[neoforge-21.1.215.jar%23189!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:86) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:122) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldDataBlocking(WorldOpenFlows.java:201) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldStem(WorldOpenFlows.java:142) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadLevelStem(WorldOpenFlows.java:346) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldCheckVersionCompatibility(WorldOpenFlows.java:335) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadLevelData(WorldOpenFlows.java:297) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorld(WorldOpenFlows.java:261) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.joinWorld(WorldSelectionList.java:516) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.mouseClicked(WorldSelectionList.java:499) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.components.AbstractSelectionList.mouseClicked(AbstractSelectionList.java:303) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:52) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:103) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:471) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.onPress(MouseHandler.java:100) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:212) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:98) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:212) ~[neoforge-21.1.215.jar%23189!/:?]
+	at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.3+5/org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.3.jar%23172!/:build 5]
+	at MC-BOOTSTRAP/org.lwjgl@3.3.3+5/org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.3.jar%23183!/:build 5]
+	at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.3+5/org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3509) ~[lwjgl-glfw-3.3.3.jar%23172!/:build 5]
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:162) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.runTick(Minecraft.java:1226) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.run(Minecraft.java:813) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:230) ~[neoforge-21.1.215.jar%23189!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.42.jar%23146!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124) ~[loader-4.0.42.jar%23146!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.NeoForgeClientDevLaunchHandler.runService(NeoForgeClientDevLaunchHandler.java:23) ~[loader-4.0.42.jar%23146!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.42.jar%23146!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%23128!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
+[16Dec2025 04:25:46.955] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe stefanscontent:arcanecape
+com.google.gson.JsonParseException: Map entry 'F' : Failed to parse either. First: Not a json array: {"item":"runes:arcane_stone"}; Second: No key tag in MapLike[{"item":"runes:arcane_stone"}]; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: runes:arcane_stone
+	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23121!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:36) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[neoforge-21.1.215.jar%23189!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:86) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:122) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldDataBlocking(WorldOpenFlows.java:201) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldStem(WorldOpenFlows.java:142) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadLevelStem(WorldOpenFlows.java:346) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldCheckVersionCompatibility(WorldOpenFlows.java:335) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadLevelData(WorldOpenFlows.java:297) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorld(WorldOpenFlows.java:261) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.joinWorld(WorldSelectionList.java:516) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.mouseClicked(WorldSelectionList.java:499) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.components.AbstractSelectionList.mouseClicked(AbstractSelectionList.java:303) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:52) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:103) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:471) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.onPress(MouseHandler.java:100) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:212) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:98) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:212) ~[neoforge-21.1.215.jar%23189!/:?]
+	at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.3+5/org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.3.jar%23172!/:build 5]
+	at MC-BOOTSTRAP/org.lwjgl@3.3.3+5/org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.3.jar%23183!/:build 5]
+	at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.3+5/org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3509) ~[lwjgl-glfw-3.3.3.jar%23172!/:build 5]
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:162) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.runTick(Minecraft.java:1226) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.run(Minecraft.java:813) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:230) ~[neoforge-21.1.215.jar%23189!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.42.jar%23146!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124) ~[loader-4.0.42.jar%23146!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.NeoForgeClientDevLaunchHandler.runService(NeoForgeClientDevLaunchHandler.java:23) ~[loader-4.0.42.jar%23146!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.42.jar%23146!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%23128!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
+[16Dec2025 04:25:46.959] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe stefanscontent:firecape
+com.google.gson.JsonParseException: Map entry 'F' : Failed to parse either. First: Not a json array: {"item":"runes:fire_stone"}; Second: No key tag in MapLike[{"item":"runes:fire_stone"}]; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: runes:fire_stone
+	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23121!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:36) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[neoforge-21.1.215.jar%23189!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:86) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:122) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldDataBlocking(WorldOpenFlows.java:201) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldStem(WorldOpenFlows.java:142) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadLevelStem(WorldOpenFlows.java:346) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldCheckVersionCompatibility(WorldOpenFlows.java:335) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadLevelData(WorldOpenFlows.java:297) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorld(WorldOpenFlows.java:261) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.joinWorld(WorldSelectionList.java:516) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.mouseClicked(WorldSelectionList.java:499) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.components.AbstractSelectionList.mouseClicked(AbstractSelectionList.java:303) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:52) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:103) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:471) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.onPress(MouseHandler.java:100) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:212) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:98) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:212) ~[neoforge-21.1.215.jar%23189!/:?]
+	at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.3+5/org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.3.jar%23172!/:build 5]
+	at MC-BOOTSTRAP/org.lwjgl@3.3.3+5/org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.3.jar%23183!/:build 5]
+	at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.3+5/org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3509) ~[lwjgl-glfw-3.3.3.jar%23172!/:build 5]
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:162) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.runTick(Minecraft.java:1226) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.run(Minecraft.java:813) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:230) ~[neoforge-21.1.215.jar%23189!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.42.jar%23146!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124) ~[loader-4.0.42.jar%23146!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.NeoForgeClientDevLaunchHandler.runService(NeoForgeClientDevLaunchHandler.java:23) ~[loader-4.0.42.jar%23146!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.42.jar%23146!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%23128!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
+[16Dec2025 04:25:46.981] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe stefanscontent:healingcape
+com.google.gson.JsonParseException: Map entry 'F' : Failed to parse either. First: Not a json array: {"item":"runes:healing_stone"}; Second: No key tag in MapLike[{"item":"runes:healing_stone"}]; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: runes:healing_stone
+	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%23121!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:36) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[neoforge-21.1.215.jar%23189!/:?]
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:86) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:122) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldDataBlocking(WorldOpenFlows.java:201) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.loadWorldStem(WorldOpenFlows.java:142) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadLevelStem(WorldOpenFlows.java:346) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldCheckVersionCompatibility(WorldOpenFlows.java:335) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorldLoadLevelData(WorldOpenFlows.java:297) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.openWorld(WorldOpenFlows.java:261) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.joinWorld(WorldSelectionList.java:516) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.worldselection.WorldSelectionList$WorldListEntry.mouseClicked(WorldSelectionList.java:499) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.components.AbstractSelectionList.mouseClicked(AbstractSelectionList.java:303) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:52) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:103) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:471) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.onPress(MouseHandler.java:100) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:212) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:98) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:212) ~[neoforge-21.1.215.jar%23189!/:?]
+	at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.3+5/org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.3.jar%23172!/:build 5]
+	at MC-BOOTSTRAP/org.lwjgl@3.3.3+5/org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.3.jar%23183!/:build 5]
+	at MC-BOOTSTRAP/org.lwjgl.glfw@3.3.3+5/org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3509) ~[lwjgl-glfw-3.3.3.jar%23172!/:build 5]
+	at TRANSFORMER/minecraft@1.21.1/com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:162) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.runTick(Minecraft.java:1226) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.Minecraft.run(Minecraft.java:813) ~[neoforge-21.1.215.jar%23189!/:?]
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.client.main.Main.main(Main.java:230) ~[neoforge-21.1.215.jar%23189!/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.42.jar%23146!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.clientService(CommonLaunchHandler.java:124) ~[loader-4.0.42.jar%23146!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.NeoForgeClientDevLaunchHandler.runService(NeoForgeClientDevLaunchHandler.java:23) ~[loader-4.0.42.jar%23146!/:4.0]
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.42.jar%23146!/:4.0]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%23128!/:?]
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%23128!/:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?]
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?]
+[16Dec2025 04:25:46.987] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1294 recipes
+[16Dec2025 04:25:47.117] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1399 advancements
+[16Dec2025 04:25:47.122] [Render thread/INFO] [Curios API/]: Loaded 10 curio slots
+[16Dec2025 04:25:47.123] [Render thread/INFO] [Curios API/]: Loaded 1 curio entities
+[16Dec2025 04:25:47.127] [Render thread/INFO] [placebo/]: Registered 0 gear_sets.
+[16Dec2025 04:25:47.128] [Render thread/INFO] [placebo/]: Registered 0 wanderer_trades.
+[16Dec2025 04:25:47.132] [Render thread/INFO] [placebo/]: Registered 37 brewing_mixes.
+[16Dec2025 04:25:47.136] [Render thread/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: c:tools
+[16Dec2025 04:25:47.501] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.21.1
+[16Dec2025 04:25:47.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[16Dec2025 04:25:48.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[16Dec2025 04:25:48.347] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[16Dec2025 04:25:48.432] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[16Dec2025 04:25:48.434] [Server thread/WARN] [net.neoforged.neoforge.common.TagConventionLogWarning/]: 
    Dev warning - Legacy Tags detected. Please migrate your 'forge' namespace tags to the 'c' namespace! See net.neoforged.neoforge.common.Tags.java for all tags.
    NOTE: Many tags have been moved around or renamed. Some new ones were added so please review the new tags.
     And make sure you follow tag conventions for new tags! The convention is `c` with nouns generally being plural and adjectives being singular.
    You can disable this message in NeoForge's common config by setting `logLegacyTagWarnings` to "SILENCED" or see individual tags with "DEV_VERBOSE".
 
-[16Dec2025 01:03:00.986] [Server thread/WARN] [net.fabricmc.fabric.impl.tag.convention.v2.TranslationConventionLogWarnings/]: 
+[16Dec2025 04:25:48.434] [Server thread/WARN] [net.fabricmc.fabric.impl.tag.convention.v2.TranslationConventionLogWarnings/]: 
 	Dev warning - Untranslated Item Tags detected. Please translate your item tags so other mods such as recipe viewers can properly display your tag's name.
 	The format desired is tag.item.<namespace>.<path> for the translation key with slashes in path turned into periods.
 	To disable this message, set this system property in your runs: `-Dfabric-tag-conventions-v2.missingTagTranslationWarning=SILENCED`.
 	To see individual untranslated item tags found, set the system property to `-Dfabric-tag-conventions-v2.missingTagTranslationWarning=VERBOSE`.
 	Default is `SHORT`.
 
-[16Dec2025 01:03:00.996] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 292 ms
-[16Dec2025 01:03:01.058] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
-[16Dec2025 01:03:01.058] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[16Dec2025 01:03:01.839] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:b45b908d] logged in with entity id 87 at (2.33434726521022, 70.69591785774539, 43.02685327641492)
-[16Dec2025 01:03:01.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[16Dec2025 01:03:02.061] [Render thread/INFO] [placebo/]: Starting sync for brewing_mixes
-[16Dec2025 01:03:02.069] [Render thread/INFO] [placebo/]: Registered 37 brewing_mixes.
-[16Dec2025 01:03:02.070] [Render thread/INFO] [placebo/]: Completed sync for brewing_mixes
-[16Dec2025 01:03:02.167] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 163 advancements
-[16Dec2025 01:03:12.495] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Unable to play empty soundEvent: minecraft:entity.salmon.ambient
-[16Dec2025 01:03:43.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
-[16Dec2025 01:03:43.145] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Survival Mode
-[16Dec2025 01:04:02.840] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[16Dec2025 01:04:02.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[16Dec2025 01:04:02.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[16Dec2025 01:04:02.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[16Dec2025 01:04:03.445] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[16Dec2025 01:04:03.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[16Dec2025 01:04:03.460] [Server thread/INFO] [net.minecraft.server.network.ServerCommonPacketListenerImpl/]: Stopping singleplayer server as player logged out
-[16Dec2025 01:04:03.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[16Dec2025 01:04:03.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[16Dec2025 01:04:03.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[16Dec2025 01:04:03.562] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[16Dec2025 01:04:03.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[16Dec2025 01:04:03.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[16Dec2025 01:04:03.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
-[16Dec2025 01:04:03.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16Dec2025 01:04:03.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16Dec2025 01:04:03.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[16Dec2025 01:04:04.546] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[16Dec2025 04:25:48.445] [progressListener/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 311 ms
+[16Dec2025 04:25:48.500] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[16Dec2025 04:25:48.500] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[16Dec2025 04:25:49.199] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:dfc98899] logged in with entity id 81 at (-5.604428592681546, 69.0, 44.93709838825858)
+[16Dec2025 04:25:49.279] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[16Dec2025 04:25:49.378] [Render thread/INFO] [placebo/]: Starting sync for brewing_mixes
+[16Dec2025 04:25:49.385] [Render thread/INFO] [placebo/]: Registered 37 brewing_mixes.
+[16Dec2025 04:25:49.385] [Render thread/INFO] [placebo/]: Completed sync for brewing_mixes
+[16Dec2025 04:25:49.434] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 179 advancements
+[16Dec2025 04:25:59.894] [Render thread/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 183 advancements

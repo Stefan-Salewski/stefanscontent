@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "stefanscontent:magecape"
+    },
+    "F": {
+      "item": "runes:arcane_stone"
+    }
+  },
+  "pattern": [
+    "FFF",
+    "FMF",
+    "FFF"
+  ],
+  "result": {
+    "id": "stefanscontent:arcanecape",
+    "count": 1
+  }
+}

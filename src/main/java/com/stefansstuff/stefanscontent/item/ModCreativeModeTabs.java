@@ -30,6 +30,7 @@ public class ModCreativeModeTabs {
                         //output.accept(ModItems.SOULCAPE);
                         output.accept(ModItems.ARCANECAPE);
                         output.accept(ModItems.HEALINGCAPE);
+                        output.accept(ModItems.JEWLEDGAUNTLET);
                     }))
                     .build());
 

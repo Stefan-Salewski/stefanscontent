@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "stefanscontent:magecape"
+    },
+    "F": {
+      "item": "runes:healing_stone"
+    }
+  },
+  "pattern": [
+    "FFF",
+    "FMF",
+    "FFF"
+  ],
+  "result": {
+    "id": "stefanscontent:healingcape",
+    "count": 1
+  }
+}
