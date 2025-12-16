@@ -2,51 +2,42 @@ package com.stefansstuff.stefanscontent.item;
 
 import com.google.common.collect.ImmutableMultimap;
 import com.google.common.collect.Multimap;
+import io.wispforest.accessories.api.AccessoryItem;
+import io.wispforest.accessories.api.attributes.AccessoryAttributeBuilder;
+import io.wispforest.accessories.api.slot.SlotReference;
 import net.minecraft.ChatFormatting;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.Holder;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.level.Level;
 import net.spell_power.api.SpellPowerMechanics;
 import net.spell_power.api.SpellSchools;
-import top.theillusivec4.curios.api.SlotContext;
-import top.theillusivec4.curios.api.type.capability.ICurioItem;
 
-import javax.annotation.Nullable;
 import java.util.List;
+import java.util.UUID;
 
-// If you're using Curios/Accessories, import their API interfaces
-
-
-public class JeweledGauntlet extends Item implements ICurioItem {
+public class JeweledGauntlet extends AccessoryItem {
 
     public JeweledGauntlet() {
         super(new Properties().stacksTo(1));
     }
 
     @Override
-    public Multimap<Holder<Attribute>, AttributeModifier> getAttributeModifiers(
-            SlotContext slotContext, ResourceLocation id, ItemStack stack) {
-        ImmutableMultimap.Builder<Holder<Attribute>, AttributeModifier> builder = ImmutableMultimap.builder();
-
-        builder.put(SpellSchools.GENERIC.getAttributeEntry(),
-                new AttributeModifier(
-                        id, // use the slotContext-provided id
-                        1,
-                        AttributeModifier.Operation.ADD_VALUE));
-
-        return builder.build();
+    public void getDynamicModifiers(ItemStack stack, SlotReference reference, AccessoryAttributeBuilder builder) {
+        builder.addStackable(SpellSchools.GENERIC.getAttributeEntry(), new AttributeModifier(ResourceLocation.fromNamespaceAndPath("stefanscontent", "cape_bonus"), 2, AttributeModifier.Operation.ADD_VALUE));
     }
 
-    @Override
-    public void curioTick(SlotContext slotContext, ItemStack stack) {
-        var entity = slotContext.entity();
+
+@Override
+    public void tick(ItemStack stack, SlotReference reference) {
+        var entity = reference.entity();
         double spellpower = entity.getAttributeValue(SpellSchools.FIRE.getAttributeEntry()) + entity.getAttributeValue(SpellSchools.FROST.getAttributeEntry()) +
                 entity.getAttributeValue(SpellSchools.ARCANE.getAttributeEntry()) + entity.getAttributeValue(SpellSchools.LIGHTNING.getAttributeEntry()) +
                 entity.getAttributeValue(SpellSchools.HEALING.getAttributeEntry()) + entity.getAttributeValue(SpellSchools.SOUL.getAttributeEntry());
@@ -69,8 +60,8 @@ public class JeweledGauntlet extends Item implements ICurioItem {
     }
 
     @Override
-    public void onUnequip(SlotContext slotContext, ItemStack newStack, ItemStack stack) {
-        var entity = slotContext.entity();
+    public void onUnequip(ItemStack stack, SlotReference reference) {
+        var entity = reference.entity();
         ResourceLocation key = ResourceLocation.fromNamespaceAndPath("stefanscontent", "jg_crit_chance");
 
         var critAttr = entity.getAttribute(SpellPowerMechanics.CRITICAL_CHANCE.attributeEntry);
@@ -80,14 +71,18 @@ public class JeweledGauntlet extends Item implements ICurioItem {
     }
 
     @Override
-    public void appendHoverText(ItemStack stack, Item.TooltipContext context, java.util.List<net.minecraft.network.chat.Component> tooltip, net.minecraft.world.item.TooltipFlag flag) {
-        //super.appendHoverText(stack, level, tooltip, flag);
-        var player = Minecraft.getInstance().player;
-        double spellpower = player.getAttributeValue(SpellSchools.FIRE.getAttributeEntry()) + player.getAttributeValue(SpellSchools.FROST.getAttributeEntry()) +
-                player.getAttributeValue(SpellSchools.ARCANE.getAttributeEntry()) + player.getAttributeValue(SpellSchools.LIGHTNING.getAttributeEntry()) +
-                player.getAttributeValue(SpellSchools.HEALING.getAttributeEntry()) + player.getAttributeValue(SpellSchools.SOUL.getAttributeEntry());
-        double crit_chance = spellpower/70;
-        tooltip.add(Component.translatable("tooltip.stefanscontent.jeweled_gauntlet.crit", String.format("%.1f", crit_chance * 100)).withStyle(ChatFormatting.BLUE));
+    public void getExtraTooltip(ItemStack stack, List<Component> tooltips, Item.TooltipContext tooltipContext, TooltipFlag tooltipType){
+        var entity = Minecraft.getInstance().player;
+
+        double spellpower = entity.getAttributeValue(SpellSchools.FIRE.getAttributeEntry()) + entity.getAttributeValue(SpellSchools.FROST.getAttributeEntry()) +
+                entity.getAttributeValue(SpellSchools.ARCANE.getAttributeEntry()) + entity.getAttributeValue(SpellSchools.LIGHTNING.getAttributeEntry()) +
+                entity.getAttributeValue(SpellSchools.HEALING.getAttributeEntry()) + entity.getAttributeValue(SpellSchools.SOUL.getAttributeEntry());
+        double critChance = spellpower / 70.0;
+
+        tooltips.add(Component.translatable(
+                "tooltip.stefanscontent.jeweled_gauntlet.crit",
+                String.format("%.1f", critChance * 100)
+        ).withStyle(ChatFormatting.BLUE));
     }
 }
 

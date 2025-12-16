@@ -2,37 +2,28 @@ package com.stefansstuff.stefanscontent.item;
 
 import com.google.common.collect.ImmutableMultimap;
 import com.google.common.collect.Multimap;
+import io.wispforest.accessories.api.AccessoryItem;
+import io.wispforest.accessories.api.attributes.AccessoryAttributeBuilder;
+import io.wispforest.accessories.api.slot.SlotReference;
 import net.minecraft.core.Holder;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.item.ItemStack;
 import net.spell_power.api.SpellSchools;
-import top.theillusivec4.curios.api.SlotContext;
-import top.theillusivec4.curios.api.type.capability.ICurioItem;
 
-// If you're using Curios/Accessories, import their API interfaces
+import java.util.UUID;
 
-
-public class FireCape extends Item implements ICurioItem {
+public class FireCape extends AccessoryItem {
 
     public FireCape() {
         super(new Properties().stacksTo(1));
     }
 
     @Override
-    public Multimap<Holder<Attribute>, AttributeModifier> getAttributeModifiers(
-            SlotContext slotContext, ResourceLocation id, ItemStack stack) {
-        ImmutableMultimap.Builder<Holder<Attribute>, AttributeModifier> builder = ImmutableMultimap.builder();
-
-        builder.put(SpellSchools.FIRE.getAttributeEntry(),
-                new AttributeModifier(
-                        id, // use the slotContext-provided id
-                        2,
-                        AttributeModifier.Operation.ADD_VALUE));
-
-        return builder.build();
+    public void getDynamicModifiers(ItemStack stack, SlotReference reference, AccessoryAttributeBuilder builder) {
+        builder.addStackable(SpellSchools.FIRE.getAttributeEntry(), new AttributeModifier(ResourceLocation.fromNamespaceAndPath("stefanscontent", "cape_bonus"), 2, AttributeModifier.Operation.ADD_VALUE));
     }
 }
-
